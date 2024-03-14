@@ -1,0 +1,80 @@
+{
+  "project_info": {
+    "project_number": "1018531933049",
+    "firebase_url": "https://learnspace-login-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "learnspace-login",
+    "storage_bucket": "learnspace-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018531933049:android:c6c4a95cc3715f6e0d1da8",
+        "android_client_info": {
+          "package_name": "com.example.learnspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018531933049-32e6t554ortq7sa7ndn26t3i2jb3eio1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.learnspace",
+            "certificate_hash": "4fe65e27ca662f5dc67b455f02ef3a66b132e5f4"
+          }
+        },
+        {
+          "client_id": "1018531933049-4ukoenm95a3iomhs5fpts3dadbm4nu02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.learnspace",
+            "certificate_hash": "05af9fcf6a10b1f0325bcfb4a6edfe423fcfbfbc"
+          }
+        },
+        {
+          "client_id": "1018531933049-88suo94ru93irep9o810cetgckel8rqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.learnspace",
+            "certificate_hash": "11bbf87bdc327380c1874f90b13762bfd4389979"
+          }
+        },
+        {
+          "client_id": "1018531933049-e2naal0g2kd9fu4r1b3o5i9s8r4cnuq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.learnspace",
+            "certificate_hash": "d71b93060acbb0e107149913c56acb43e77728e1"
+          }
+        },
+        {
+          "client_id": "1018531933049-vh3ks85epigtv8sgccb6q2q1ak8o8ual.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.learnspace",
+            "certificate_hash": "81dc5a58acac3552783089f3d19502d74b970eb5"
+          }
+        },
+        {
+          "client_id": "1018531933049-krndaq0cqlmsre3fki68d8sdlmk5luea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjzEetNJWTBBNwOQSJmOZBfiRIApPYbEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018531933049-krndaq0cqlmsre3fki68d8sdlmk5luea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

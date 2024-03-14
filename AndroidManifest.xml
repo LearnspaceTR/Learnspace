@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learnspace">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.learnspace">
+        <activity
+            android:name=".QuizScoreActivity"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".QuizGameActivity"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".QuizQuestionsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".QuizAddQuestionsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".QuizSetsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".notedetails"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".editnoteactivity"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".createnote"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".NotesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".CalendarActivity"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".LeaderboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.learnspace"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ToDoActivity"
+            android:exported="true"
+            android:label="Your Activity Label"
+            android:windowSoftInputMode="adjustResize">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
